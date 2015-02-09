@@ -22,3 +22,14 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$(document).ready(function(){
+    var opacityRate = 0.4;
+    $(".img_holder").hover(function(){
+        $(".img_holder").animate({opacity: opacityRate},"fast");
+        },function(){
+        $(".img_holder").animate({opacity: 1/opacityRate}, "fast");
+    });
+});
+
+

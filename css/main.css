@@ -11,8 +11,9 @@
    ========================================================================== */
 
 html {
-	color: #222;
+	color: #000000;
 	font-size: 1em;
+	font-family:"sans-serif";
 	line-height: 1.4;
 }
 
@@ -98,40 +99,75 @@ textarea {
 .heading {
 	position: absolute;
 	top: -2.5em;
+	font-size: 0.9em;
 }
 
 .language {
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 6px;
+	padding: 10px;
 }
 
 .tile {
+	background-color: #EBEBEB;
+
+}
+
+.project_heading {
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	top: 7px;
+}
 
 
+#airplane {
+	width: 300px;
+	height: 265px;
+	position: absolute;
 }
 
 #js_heading {
 	left: 30px;
+	color: #ffcc00;
+}
 
+#py_heading {
+	left: 230px;  
+	color: #003399;
+}
+
+#java_heading {
+	left: 30px;
+	color: red;
 }
 
 #javascript {
 	width: 600px;
 	height: 500px;
-	border-color: red;
+	border-color: #ffcc00;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 
 #python {
-	width: 100px;
-	height: 100px;
-	border-color: green;
+	width: 300px;
+	height: 200px;
+	border-color: #003399;
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 650px;
+}
+
+#java {
+	width: 300px;
+	height: 200px;
+	border-color: red;
+	position: absolute;
+	top: 250px;
+	left: 650px;
 }
 
 
@@ -142,8 +178,8 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 4em;
 	max-width: 1400px;
-	padding-top: 25px;
-	background-color: #c2ffc2;
+	padding-top: 0px;
+	background-color: transparent;
 }
 
 #projects {
@@ -152,13 +188,28 @@ textarea {
 	position: relative;
 	width: 1000px;
 	height: 1000px;
-	background-color: #c5c5ff;
+	background-color: transparent;
 
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color:#2f2f2f;
+}
+
+a:hover {
+	color:#c875c8;
+}
+
+a:active {
+	text-decoration: none;
+}
 
 body {
-	background-color: #ffd6ad;
+	background-color: #ffffff;
 }
 
 h1 {
