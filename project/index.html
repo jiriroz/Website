@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
-        <title></title>
+        <title>Project Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,49 +20,39 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+
         <header>
-            <h1>Jiri Roznovjak</h1>	
-            <div id="header"> <a id="email" onclick="show_email(this)">email<a> <span style="color:black">| </span> <a href="https://github.com/jirkaroz" target="_blank">github</a> </div>
+          <a id="mainPage" href="../index.html">Main Page</a>
         </header>
-        
-        <section id="contents">
 
-            <div id="projects">
+        <div id="contents">
 
-                <div class="language" id="javascript">
-                  <p class="heading" id="js_heading">javascript</p>
+          <div id="projectHead">
+            <div id="title">
+              <h2>Flight Aerobatics</h2>
+            </div>
 
-                  <div class="tile" id="airplane">
-                    <div class="img_holder">
-                      <a href="project/index.html" class="loadcontent">
-                        <img src="img/airplane.png" alt="airplane" width=300 height=225 />
-                      </a>
-                    </div>
-
-                    <div class="project_heading">
-                      <a href="project/index.html" class="loadcontent" style="">AIRPLANE SIMULATOR</a>
-                    </div>
-                  </div>
-                    </a>
-                </div>
-
-                <div class="language" id="python">
-                  <p class="heading" id="py_heading">python</p>
-
-                </div>
-
-
-                <div class="language" id="java">
-                  <p class="heading" id="java_heading">java</p>
-
-                </div>
-
-            <!-- TODO: Make box outlines more transparent (by changing color).
-                 Also, try making boxes not round.-->
+            <div id="description">
+              <p>
+                Flight Aerobatics is a 2D game developed in JavaScript using processing.js.
+              </p>
 
             </div>
 
 
+          </div>
+
+          <div id="canvasContainer" align="center">
+            <canvas id="canvas"></canvas>
+          </div>
+
+          <div id="codeLink">
+            <p><a target="_blank" href="https://github.com/jirkaroz/Airplane-simulator">Code</a></p>
+
+          </div>
+
+
+        </div>
 
 
 
@@ -71,12 +61,13 @@
 
 
 
-        </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/processing.js"></script>
+        <script id="game" type="text/javascript" src="js/game.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
