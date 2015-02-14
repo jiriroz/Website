@@ -106,12 +106,13 @@ textarea {
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 6px;
-	padding: 10px;
 }
 
 .tile {
 	background-color: transparent;
-
+        width: 280px;
+        height: 210px;
+        position: absolute;
 }
 
 .project_heading {
@@ -123,11 +124,28 @@ textarea {
 
 
 #airplane {
-	width: 300px;
-	height: 265px;
-	position: absolute;
-	left: 310px;
-	top: 10px;
+	left: 305px;
+	top: 15px;
+}
+
+#comets {
+        left: 15px;
+        top: 15px;
+}
+
+#flocking {
+	left: 305px;
+	top: 260px;
+}
+
+#brick {
+	left: 15px;
+	top: 260px;
+}
+
+#hangman {
+	left: 15px;
+	top: 15px;
 }
 
 #email {
@@ -157,7 +175,7 @@ textarea {
 
 #javascript {
 	width: 600px;
-	height: 500px;
+	height: 525px;
 	border-color: #ffcc00;
 	position: absolute;
 	top: 0px;
@@ -166,22 +184,22 @@ textarea {
 }
 
 #python {
-	width: 300px;
-	height: 200px;
+	width: 310px;
+	height: 275px;
 	border-color: #003399;
 	position: absolute;
 	top: 0px;
-	left: 650px;
+	left: 630px;
 	background-color: #c9c9e9;
 }
 
 #java {
-	width: 300px;
-	height: 200px;
+	width: 310px;
+	height: 275px;
 	border-color: red;
 	position: absolute;
-	top: 250px;
-	left: 650px;
+	top: 305px;
+	left: 630px;
 	background-color: #ffbdbd;
 }
 
