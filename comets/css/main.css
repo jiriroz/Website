@@ -11,10 +11,10 @@
    ========================================================================== */
 
 html {
-	color: #000000;
-	font-size: 1em;
-	font-family: "quicksand", "sans-serif";
-	line-height: 1.4;
+    color: #222;
+    font-size: 1em;
+    font-family: "quicksand","sans-serif";
+    line-height: 1.4;
 }
 
 /*
@@ -96,163 +96,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.heading {
-	position: absolute;
-	top: -2.5em;
-	font-size: 0.9em;
+#canvas {
+	width: 800px;
+	height: 600px;
+	border: 1px solid;
 }
 
-.language {
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 6px;
+#canvasContainer {
 }
 
-.tile {
-	background-color: transparent;
-        width: 280px;
-        height: 210px;
-        position: absolute;
-}
-
-.project_heading {
-	text-align: center;
-	font-weight: normal;
-	position: relative;
-	top: 7px;
-}
-
-
-#airplane {
-	left: 305px;
-	top: 15px;
-}
-
-#comets {
-        left: 15px;
-        top: 15px;
-}
-
-#flocking {
-	left: 305px;
-	top: 265px;
-}
-
-#brick {
-	left: 15px;
-	top: 265px;
-}
-
-#hangman {
-	left: 15px;
-	top: 15px;
-}
-
-#email {
-	position: relative;
-	left: 0px;
-}
-
-#header {
-	position: relative;
-	left: 0px;
-}
-
-#js_heading {
-	left: 30px;
-	color: #ffcc00;
-}
-
-#py_heading {
-	left: 230px;  
-	color: #003399;
-}
-
-#java_heading {
-	left: 30px;
-	color: red;
-}
-
-#javascript {
-	width: 600px;
-	height: 510px;
-	border-color: #ffcc00;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background-color: #ffffaa;
-}
-
-#python {
-	width: 310px;
-	height: 260px;
-	border-color: #003399;
-	position: absolute;
-	top: 0px;
-	left: 630px;
-	background-color: #c9c9e9;
-}
-
-#java {
-	width: 310px;
-	height: 275px;
-	border-color: red;
-	position: absolute;
-	top: 295px;
-	left: 630px;
-	background-color: #ffbdbd;
-}
-
-
-#contents {
-	clear: both;
-	margin-top: 4em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 4em;
-	max-width: 1400px;
-	padding-top: 0px;
-	background-color: transparent;
-}
-
-#projects {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	width: 1000px;
-	height: 1000px;
-	background-color: transparent;
-
-}
-
-a {
-	text-decoration: none;
-}
-
-a:visited {
-	color:#2f2f2f;
-}
-
-a:hover {
-	color:#c875c8;
-}
-
-a:active {
-	text-decoration: none;
-}
-
-body {
-	background-color: #ffffff;
-}
-
-h1 {
+#codeLink {
+        text-align: center;
 	font-size: 1.2em;
 }
 
-header {
-	text-align: center;
-	background-color: transparent;
+#description {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+#mainPage {
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+#projectHead {
+	text-align: center;
+}
+
+a {
+        text-decoration: none;
+}
+
+a:visited {
+        color:#2f2f2f;
+}
+
+a:hover {
+        color:#c875c8;
+}
+
+a:active {
+        text-decoration: none;
+}
+
+body {
+        background-color: #ffffff;
+}
+
+
 
 
 

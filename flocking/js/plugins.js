@@ -22,18 +22,3 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-
-$(document).ready(function(){
-    var opacityRate = 0.4;
-
-    $.each($('.img_holder'), function() {
-    $(this).hover(function(){
-        $(this).animate({opacity: opacityRate},"fast");
-        },function(){
-        $(this).animate({opacity: 1/opacityRate}, "fast");
-    })
-    });
-
-});
-
-
