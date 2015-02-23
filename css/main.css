@@ -103,6 +103,7 @@ textarea {
 }
 
 .language {
+	position: absolute;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 6px;
@@ -177,7 +178,6 @@ textarea {
 	width: 600px;
 	height: 510px;
 	border-color: #ffcc00;
-	position: absolute;
 	top: 0px;
 	left: 0px;
 	background-color: #ffffaa;
@@ -187,7 +187,6 @@ textarea {
 	width: 310px;
 	height: 260px;
 	border-color: #003399;
-	position: absolute;
 	top: 0px;
 	left: 630px;
 	background-color: #c9c9e9;
@@ -197,7 +196,6 @@ textarea {
 	width: 310px;
 	height: 275px;
 	border-color: red;
-	position: absolute;
 	top: 295px;
 	left: 630px;
 	background-color: #ffbdbd;
@@ -220,13 +218,17 @@ textarea {
 	margin-right: auto;
 	position: relative;
 	width: 1000px;
-	height: 1000px;
+	height: 600px;
 	background-color: transparent;
 
 }
 
 a {
 	text-decoration: none;
+}
+
+a:link {
+	color:black;
 }
 
 a:visited {
