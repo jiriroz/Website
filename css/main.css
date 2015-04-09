@@ -146,6 +146,11 @@ textarea {
 
 #hangman {
 	left: 15px;
+	top: 265px;
+}
+
+#factbook {
+	left: 15px;
 	top: 15px;
 }
 
@@ -194,7 +199,7 @@ Tile width = 290px.
 
 #python {
 	width: 310px;
-	height: 260px;
+	height: 510px;
 	border-color: #003399;
 	top: 0px;
 	left: 630px;
